@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         checkRunTimePermissionForSms();
         //two lines
         //another line
+        // third line
     }
 
     private void checkRunTimePermissionForSms() {
