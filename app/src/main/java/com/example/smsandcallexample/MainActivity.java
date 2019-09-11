@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         etMessage = findViewById(R.id.etMessage);
 
         checkRunTimePermissionForSms();
+        //two lines
+        //another line
     }
 
     private void checkRunTimePermissionForSms() {
