@@ -62,7 +62,7 @@ public class BluetoothActivity extends AppCompatActivity implements CompoundButt
         } else {
             // disable
             bluetoothAdapter.disable();
-            Toast.makeText(this,"BLE Disabled",Toast.LENGTH_LONG).show();
+           // Toast.makeText(this,"BLE Disabled",Toast.LENGTH_LONG).show();
         }
     }
 

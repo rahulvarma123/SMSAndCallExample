@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED || ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.SEND_SMS, Manifest.permission.READ_PHONE_STATE}, 101);
         } else {
-            Toast.makeText(this, "All Permissions Granted", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "All Permissions Granted ", Toast.LENGTH_LONG).show();
         }
 
     }
